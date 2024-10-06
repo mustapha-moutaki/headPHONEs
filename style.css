@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
+<<<<<<< HEAD
 h1{
     color :red ;
 }
@@ -32,3 +33,74 @@ header select{
 header select{
     color: black;
 }
+=======
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+@media (min-width: 768px){
+    .container {
+        width: 750px;
+    }
+}
+@media (min-width: 992px){
+    .container {
+        width: 960px;
+    }
+}
+@media (min-width: 1200px){
+    .container {
+        width: 1140px;
+    }
+}
+
+/* timer start */
+.timer {
+    background-color: #e5e4e4;
+}
+.timer .container{
+margin-top: 100px;
+margin-bottom: 100px;
+display: flex;
+}
+.timer .container .content {
+    margin-top: 50px;
+}
+.timer .container .content .icone{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    
+}
+.timer .container .content .icone i {
+    background-color: red;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:  white;
+    margin-right: 10px;
+    font-size: 10px;
+}
+.timer .container .content .icone p {
+    color : red ;
+}
+.timer .container .content h1 {
+    font-weight: 500;
+    font-size: 40px;
+}
+.timer .container .content .time {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.timer .container .content .time .box .box {
+
+}
+/* timer end  */
+>>>>>>> e8aa85a54150de5891bf56d0a11db158418a34c8
