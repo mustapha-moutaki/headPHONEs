@@ -3,6 +3,37 @@
     margin: 0;
     box-sizing: border-box;
 }
+<<<<<<< HEAD
+h1{
+    color :red ;
+}
+header{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #3c6488;
+    padding: 0px 10px;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+header ul li a{
+    margin-left: 10px;
+    text-decoration: none;
+    color: white;
+}
+header select{
+    background-color: #3c6488;
+    border: none;
+    color: white;
+}
+header select{
+    color: black;
+}
+=======
 .container {
     margin-left: auto;
     margin-right: auto;
@@ -95,9 +126,14 @@ display: flex;
 .timer .container .image {
     position: relative;
 }
+<<<<<<< HEAD
 .timer .container .image img {
     position: absolute;
     top: -120px;
 }
 
 /* timer end  */
+=======
+/* timer end  */
+>>>>>>> e8aa85a54150de5891bf56d0a11db158418a34c8
+>>>>>>> 2590fa6c880a00972d571c89a79505707d5471d9
