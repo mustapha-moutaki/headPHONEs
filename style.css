@@ -224,25 +224,25 @@ header select{
     transition: 0.7s;
 }
 .category-items .item1 .image1{
-    background-image: url(/images/phones.jpg);
+    background-image: url(images/phones.jpg);
 }
 .category-items .item2 .image2{
-    background-image: url(/images/watch.jpg);
+    background-image: url(images/watch.jpg);
 }
 .category-items .item3 .image3{
-    background-image: url(/images/cabl.jpg);
+    background-image: url(images/cabl.jpg);
 }
 .category-items .item4 .image4{
-    background-image: url(/images/computer.jpg);
+    background-image: url(images/computer.jpg);
 }
 .category-items .item5 .image5{
-    background-image: url(/images/game.jpg);
+    background-image: url(images/game.jpg);
 }
 .category-items .item6 .image6{
-    background-image: url(/images/headp.jpg);
+    background-image: url(images/headp.jpg);
 }
 .category-items .item7 .image7{
-    background-image: url(/images/camera.jpg);
+    background-image: url(images/camera.jpg);
 }
 .category-items .item1 .image1,.image2, .image3,
 .image4, .image5, .image6, .image7{
