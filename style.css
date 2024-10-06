@@ -3,7 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-<<<<<<< HEAD
+
 h1{
     color :red ;
 }
@@ -24,11 +24,14 @@ header ul li a{
     margin-left: 10px;
     text-decoration: none;
     color: white;
+    text-transform: capitalize;
+    font-size: 12px;
+    letter-spacing: 2px;
 }
 header select{
     background-color: #3c6488;
     border: none;
-    color: white;
+    color: #ff69b4;
 }
 header select{
     color: black;
@@ -39,6 +42,124 @@ header select{
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
+}
+.container1{
+    width:100%;
+    height: 100vh;
+    background-image: linear-gradient(to bottom, #8000809a 1%, #ff69b4);
+    /* margin-top: 2px; */
+    padding-top: 10px;
+}
+.main{
+    width:95%;
+    height: 50px;
+    background-color: #e5e4e4;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    padding: 0px 10px;
+}
+.main  ul{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    /* background-color: red; */
+    
+}
+.main ul li{
+    margin-right: 0.1px;
+    padding: 2px 10px;
+    transition: 0.9s;
+}
+.main .first-list li:hover{
+    background-color: #ff69b4;
+    border-radius: 5px;
+}
+.main .second-list li i:hover{
+    color: #ff69b4;
+}
+.main ul li a{
+    color: rgb(0, 0, 0);
+    text-transform: capitalize;
+    text-decoration: none;
+}
+.main-section{
+    width: 95%;
+    /* background-color: #3c6488; */
+    margin: auto;
+    margin-top: 20px;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-section .text{
+    width: 40%;
+    height: 100%;
+    /* background-color: aquamarine; */
+    padding-top: 14%;
+    margin-left: 5%;
+}
+
+.main-section .text p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 13px;
+    
+}
+.main-section .text h1{
+    font-size: 60px;
+    color: black;
+    font-family: system-ui;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    user-select: none;
+}
+.main-section .text .first-span{
+    /* background-color: red; */
+    padding: 10px 20px;
+    margin-left: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.main-section .text .first-span button{
+    margin-left: 10px;
+    border: none;
+    background: none;
+    font-size: 18px;
+    
+}
+.main-section .text .first-span i:hover{
+    border: none;
+    background-color: #e5e4e4;
+}
+.main-section .text .second-span .imgsreviews{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 25px;
+    gap: 10px;
+}
+.main-section .text .second-span .imgsreviews i{
+    font-size: 20px;
+}
+.main-section .text .second-span img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+
+}
+.main-section .main-pic{
+    width: 50%;
+    height: 100%;
+    /* background-color: #3c6488; */
+}
+.main-section .main-pic img{
+    width: 70%;
+    margin-left: 40px;
 }
 @media (min-width: 768px){
     .container {
@@ -133,6 +254,8 @@ display: flex;
 
 /* timer end  */
 
+<<<<<<< HEAD
+=======
 /* products start */
 .products {
     margin-top: 50px;
@@ -162,3 +285,4 @@ display: flex;
 
 /* products start */
 
+>>>>>>> c90ed7d7edb72f87d01b10f1f62e44aedfcfb70c
