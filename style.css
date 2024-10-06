@@ -180,6 +180,7 @@ header select{
 /* timer start */
 .timer {
     background-color: #e5e4e4;
+    height: 80vh;
 }
 .timer .container{
 margin-top: 100px;
@@ -189,13 +190,13 @@ display: flex;
 .timer .container .content {
     margin-top: 50px;
 }
-.timer .container .content .icone{
+.icone{
     display: flex;
     align-items: center;
     margin-bottom: 20px;
     
 }
-.timer .container .content .icone i {
+ .icone i {
     background-color: red;
     border-radius: 50%;
     height: 20px;
@@ -206,8 +207,8 @@ display: flex;
     color:  white;
     margin-right: 10px;
     font-size: 10px;
-}
-.timer .container .content .icone p {
+ }
+.icone p {
     color : red ;
 }
 .timer .container .content h1 {
@@ -215,13 +216,69 @@ display: flex;
     font-size: 40px;
 }
 .timer .container .content .time {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin: 30px 120px 30px 20px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
-.timer .container .content .time .box .box {
+.timer .container .content .time .box  {
+     background-color: darkgrey;
+     padding: 10px;
+     text-align: center;
+     border-radius: 50%;
+     width: 50px;
+     height: 50px;
+}
+.timer .container .content .time .box p:first-child {
+    font-weight: 600;
+    font-size: 20px;
+} 
+.timer .container .content .time .box p:last-child {
+    font-size: 10px;
+}
+.timer .container .content button {
+    background-color: blue;
+    width: 100px;
+    padding: 10px;
+    border: none;
+    color : white;
+    border-radius: 5px;
+}
 
+.timer .container .image {
+    position: relative;
 }
+.timer .container .image img {
+    position: absolute;
+    top: -120px;
+}
+
 /* timer end  */
 
+<<<<<<< HEAD
+=======
+/* products start */
+.products {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.products .container {
+}
+.products .container .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.products .container .head .icone i {
+    background-color: black;
+}
+ .icone p {
+    color: black;
+ }    
+ .products .container .head  .headright .right,
+ .products .container .head  .headright .left{
+    background-color: rgb(212, 212, 212);
+    padding: 10px;
+ }
+/* products start */
+
+>>>>>>> c90ed7d7edb72f87d01b10f1f62e44aedfcfb70c
