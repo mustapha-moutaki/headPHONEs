@@ -33,7 +33,7 @@ header select{
 header select{
     color: black;
 }
-=======
+
 .container {
     margin-left: auto;
     margin-right: auto;
@@ -69,13 +69,13 @@ display: flex;
 .timer .container .content {
     margin-top: 50px;
 }
-.timer .container .content .icone{
+.icone{
     display: flex;
     align-items: center;
     margin-bottom: 20px;
     
 }
-.timer .container .content .icone i {
+ .icone i {
     background-color: red;
     border-radius: 50%;
     height: 20px;
@@ -86,8 +86,8 @@ display: flex;
     color:  white;
     margin-right: 10px;
     font-size: 10px;
-}
-.timer .container .content .icone p {
+ }
+.icone p {
     color : red ;
 }
 .timer .container .content h1 {
@@ -126,14 +126,35 @@ display: flex;
 .timer .container .image {
     position: relative;
 }
-<<<<<<< HEAD
 .timer .container .image img {
     position: absolute;
     top: -120px;
 }
 
 /* timer end  */
-=======
-/* timer end  */
->>>>>>> e8aa85a54150de5891bf56d0a11db158418a34c8
->>>>>>> 2590fa6c880a00972d571c89a79505707d5471d9
+
+/* products start */
+.products {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.products .container {
+}
+.products .container .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.products .container .head .icone i {
+    background-color: black;
+}
+ .icone p {
+    color: black;
+ }    
+ .products .container .head  .headright .right,
+ .products .container .head  .headright .left{
+    background-color: rgb(212, 212, 212);
+    padding: 10px;
+ }
+/* products start */
+
