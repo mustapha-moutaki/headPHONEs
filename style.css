@@ -146,17 +146,10 @@ header select {
   height: 30px;
   border-radius: 50%;
 }
-<<<<<<< HEAD
 .main-section .main-pic {
   width: 50%;
   height: 100%;
   /* background-color: #3c6488; */
-=======
-.main-section .main-pic{
-    width: 47%;
-    height: 100%;
-    /* background-color: #3c6488; */
->>>>>>> d598710b9692952707d1860775deb50fbc5397c6
 }
 .main-section .main-pic img {
   width: 70%;
