@@ -451,6 +451,7 @@ display: flex;
   margin-bottom: 50px;
 }
 .products .container {
+
 }
 .products .container .head {
   display: flex;
@@ -474,11 +475,18 @@ display: flex;
   grid-template-columns: repeat(4, 1fr);
   gap: 10px;
 }
-
+.products .container .product {
+    border : 1px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+}
 .products .container .product .image {
     background-color: gainsboro;
     text-align: center;
     padding: 20px;
+}
+.products .container .product .content {
+    padding: 10px;
 }
 .products .container .product .content .review {
     margin-top: 5px;
